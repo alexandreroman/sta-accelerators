@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sta-trading-agent-nodejs
+  description: A NodeJS Trading Agent implementation for Spring Trading App
+  tags:
+  - node
+  - sta
+  - trading-agent
+  annotations:
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=sta-trading-agent-nodejs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
